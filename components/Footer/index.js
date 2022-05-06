@@ -1,0 +1,19 @@
+import React from 'react'
+
+const Footer = () => {
+  return (
+    <div className='bg-red-t p-4 container mx-auto rounded-2xl'>
+      <div className='container mx-auto text-center font-bold text-white'>
+        Projeto desenvolvido por:
+        <a className='px-1 hover:underline' href='#'> Maicon da Silva Nascimento </a> /
+        <a className='px-1 hover:underline' href='https://www.linkedin.com/in/snmaicon/'> Lindedin </a>/
+        <a className='px-1 hover:underline' href='https://github.com/SNMaicon'> Github</a>
+        <div className='mt-2'>
+          <img className='inline p-4' src='/logo_semana_fsm.png' />
+          <img className='inline p-4' src='/logo_devpleno.png' />
+        </div>
+      </div>
+    </div>
+  )
+}
+export default Footer
